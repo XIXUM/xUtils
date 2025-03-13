@@ -12,7 +12,7 @@ is an class extension of a classic list with the addition that you can navigate 
 extends path by defining a Path more semantically.
 it is defined as
 
-Root / container node (Directory) ... container node (Directory) / leaf node (File)
+`Root` / `container node` (Directory) ... `container node` (Directory) / `leaf node` (File)
 it uses XList to store the path enabling to navigate through the path with
 - `getPrecessor()`
 - `getSuccessor()`
